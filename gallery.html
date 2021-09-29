@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gallery</title>
+        <style>
+    
+    /* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+           
+           
+           
+           body{
+                background-image: url(resourses/wall4.jpg);
+            }
+h1{
+    text-align: left;
+    color:black;
+}
+
+.column {
+  float: left;
+  width: 45.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display:grid;}
+  </style>
+    </head>
+    <body>
+        <h1><i>Gallery</i></h1>
+<div class="row">
+    <div class="column">
+        <img src="resourses/nature1.jpg" alt="Nature"style="width:600px;height:500px;">
+    </div>
+    <div class="column">
+        <img src="resourses/nature2.jpg" alt="Nature"style="width:600px;height:500px;">
+    </div>
+    <div class="column">
+        <img src="resourses/nature3.jpg" alt="Nature"style="width:600px;height:500px;">
+    </div>
+    <div class="column">
+        <img src="resourses/nature4.jpg" alt="Nature"style="width:600px;height:500px;">
+    </div>
+    <div class="column">
+        <img src="resourses/nature5.jpg" alt="Nature"style="width:600px;height:500px;">
+    </div>
+    <div class="column">
+        <img src="resourses/nature6.jpg" alt="Nature"style="width:600px;height:500px;">
+    </div>
+    <div class="column">
+        <img src="resourses/nature7.jpg" alt="Nature"style="width:600px;height:500px;">
+    </div>
+    <div class="column">
+        <img src="resourses/nature8.jpg" alt="Nature"style="width:600px;height:500px;">
+    </div>
+    <div class="column">
+        <img src="resourses/nature9.jpg" alt="Nature"style="width:600px;height:500px;">
+    </div>
+    <div class="column">
+        <img src="resourses/nature10.jpg" alt="Nature"style="width:600px;height:500px;">
+    </div>
+
+    <div class="fixed-header">
+        <div class="container">
+            <div class="conatiner">SUFIAN KHAN JADOON</div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Projects</a>
+                <a href="#">Quotations</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </div> 
+    <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2021 by Sufian khan jadoon FA19-BCS-053</div>        
+    </div>
+
+
+  </div>
+  
+  
+    </body>
+</html>
